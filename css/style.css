@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text-type {
+    text-align: center;
+    color: #F90B6D;
+}
+
+.wrong-text {
+    text-align: center;
+    color: red;
+}
+
+.text-type::after {
+    content: " CORNIFY";
+    color: #ff42c1;
+    background: -webkit-linear-gradient(45deg, #d695ef, #ff7cd8, #ff42c1, #6696fd, #6b41e8);
+    background: -moz-linear-gradient(45deg, #d695ef, #ff7cd8, #ff42c1, #6696fd, #6b41e8);
+    background: -o-linear-gradient(45deg, #d695ef, #ff7cd8, #ff42c1, #6696fd, #6b41e8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
